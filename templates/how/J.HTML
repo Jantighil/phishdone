@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Change Awareness</title>
+  <link rel="stylesheet" href="/main/how/j.css">
+  
+</head>
+<body>
+  <canvas class="animated-background" id="background"></canvas>
+  <header>
+    <nav class="navbar">
+        <img class="" style="height: 70px; margin-top: 1%;" href ="/main/main.html" src="/main/AFIT.png" alt="">
+        <img class="l" style="height: 70px; margin-top: 1%;" href ="/main/main.html" src="/main/AFIT.png" alt="">
+        <div class="logo"> 
+        <h1 style="padding-top: 7%;">Cyber Security Awareness</h1>
+      </div>
+      <ul class="nav-links" style="padding-top: 1%;">
+        <li class="i" style="padding-top: 7%;"><a class="i" href="#video">Video</a></li>
+        <li class="i"><a class="i" href="#quiz">Quiz</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <main>
+    <video  width="200px" height="800px" class="hero_videos" autoplay loop src="/main/how/Pause, Think and Act -  - Cybersecurity Awareness Video - Security Quotient.mp4 " alt="#" ></video>
+    <div class="content">
+        <div class="video-section">
+          <video  width="200" height="90" class="hero_video" autoplay loop src="/main/how/Pause, Think and Act -  - Cybersecurity Awareness Video - Security Quotient.mp4 " alt="#" ></video>
+        </div>
+      
+        <div class="awareness-section">
+          <div class="slider">
+            <div class="slide active">
+              <h3>Slide 1: <b>Strong Passwords:</b></h3>
+              <p> Use complex combinations of characters <br>and avoid easily guessable information to <br>secure accounts.</p>
+            </div>
+            <div class="slide">
+              <h3>Slide 2: <b>Phishing Awareness: </b></h3>
+              <p>Avoid clicking on suspicious links <br> or downloading attachments from <br> unknown sources in emails.</p>
+            </div>
+            <div class="slide">
+              <h3>Slide 3: <b>Software Updates:</b></h3>
+              <p> Regularly update software to patch security <br> vulnerabilities and prevent cyber threats.</p>
+            </div>
+            <div class="slide">
+              <h3>Slide 4: <b>Two-Factor Authentication (2FA):</b></h3>
+              <p> Add an extra layer of security by enabling <br>two-factor authentication wherever possible.</p>
+            </div>
+            <div class="slide">
+              <h3>Slide 5: <b>Data Backup: </b></h3>
+              <p>Ensure regular backups of important files to <br>prevent data loss due to <br>cyberattacks or hardware failures.</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Rest of your content -->
+      </div>
+          
+      </div>
+      <a href="/main/i.html"><button id="moveToGame" style="display: none;">Move to Game</button></a>
+
+      <div class="quiz-section" id="quiz">
+        <form id="quizForm">
+          <div class="question" data-question="1">
+            <h3>Question 1</h3>
+            <p>What is the best practice for creating strong passwords?</p>
+            <input type="radio" name="q1" value="a"> Using easily guessable information<br>
+            <input type="radio" name="q1" value="b"> Sharing passwords with trusted friends<br>
+            <input type="radio" name="q1" value="c"> Using a mix of letters, numbers, and symbols<br>
+            <input type="radio" name="q1" value="d"> Writing passwords down on a sticky note<br>
+            <button type="button" class="next">Next</button>
+          </div>
+          <!-- Repeat for other questions -->
+          <div class="question" data-question="2" style="display: none;">
+            <h3>Question 2</h3>
+            <p>What does 'Phishing' refer to in cyber security?</p>
+            <input type="radio" name="q2" value="a"> A method for catching cyber criminals<br>
+            <input type="radio" name="q2" value="b"> A fraudulent attempt to obtain sensitive information<br>
+            <input type="radio" name="q2" value="c"> A way to secure online accounts<br>
+            <input type="radio" name="q2" value="d"> A security protocol for networks<br>
+            <button type="button" class="prev">Previous</button>
+            <button type="button" class="next">Next</button>
+          </div>
+          <!-- Repeat for other questions -->
+          <div class="question" data-question="3" style="display: none;">
+            <h3>Question 3</h3>
+            <p>What is the purpose of two-factor authentication (2FA)?</p>
+            <input type="radio" name="q3" value="a"> Securing physical locations<br>
+            <input type="radio" name="q3" value="b"> Protecting against ransomware<br>
+            <input type="radio" name="q3" value="c"> Adding an extra layer of security to accounts<br>
+            <input type="radio" name="q3" value="d"> Encrypting files and folders<br>
+            <button type="button" class="prev">Previous</button>
+            <button type="button" class="next">Next</button>
+          </div>
+          <!-- Repeat for other questions -->
+          <div class="question" data-question="4" style="display: none;">
+            <h3>Question 4</h3>
+            <p>What is the importance of regularly updating software?</p>
+            <input type="radio" name="q4" value="a"> Enhancing device aesthetics<br>
+            <input type="radio" name="q4" value="b"> Reducing battery consumption<br>
+            <input type="radio" name="q4" value="c"> Patching security vulnerabilities<br>
+            <input type="radio" name="q4" value="d"> Adding new features to applications<br>
+            <button type="button" class="prev">Previous</button>
+            <button type="button" class="next">Next</button>
+          </div>
+          <!-- Repeat for other questions -->
+          <div class="question" data-question="5" style="display: none;">
+            <h3>Question 5</h3>
+            <p>What should individuals do to protect sensitive data?</p>
+            <input type="radio" name="q5" value="a"> Share it with close family members<br>
+            <input type="radio" name="q5" value="b"> Store it in public locations<br>
+            <input type="radio" name="q5" value="c"> Keep it secure and limit access<br>
+            <input type="radio" name="q5" value="d"> Post it on social media<br>
+            <button type="button" class="prev">Previous</button>
+            <button type="submit">Submit Quiz</button>
+          </div>
+        </form>
+      </div>
+  </main>
+  
+
+  <footer>
+    <div class="result" style="justify-content: center;">
+      <p class="r"><b>Copy right 2023 Airforce Institute of Technology (AFIT).</b></p>
+    </div>
+  </footer>
+  
+
+  <script src="/main/how/j.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+/* Add your attractive blue theme */
+.animated-background {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #9accff;
+  position: fixed;
+  position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      pointer-events: none; 
+}
+  .content{
+    display: flex;
+    background-color: rgb(250, 253, 253);
+  }
+  /* Style your header, footer, and main sections */
+  header, footer, main {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style your quiz form */
+  form {
+    padding: 20px;
+    background-color: #f7fafc;
+    border-radius: 10px;
+  }
+  
+  /* Style your buttons */
+  button[type="submit"], .next, .prev {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effects */
+  button[type="submit"]:hover, .next:hover, .prev:hover {
+    background-color: #45a049;
+  }
+  
+  /* Attractive slide section */
+  /* .slider {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    padding: 20px;
+    display: none;
+  } */
+  
+  .active {
+    display: block;
+  }
+
+  .quiz-section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -350px;
+  }
+  .video_container{
+    height: 550px;
+    width: 748px;
+    max-width: 800px;
+    max-height: 700px;
+   }
+   .hero_video {
+    width: 60%;
+    height: 400%;
+    height: 600px;
+   }
+   .hero_videos{
+    display: none;
+  }
+  .l{
+    display: none;
+  }
+  
+
+  .question {
+    display: none;
+  }
+  #quizform{
+    background-color: #99dbfc;
+
+  }
+  form{
+    background-color: #9fdfff;
+  }
+
+  /* Styles for buttons */
+  button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #5E5E0B;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #3f3f00;
+  }
+
+  /* Greenish hover effect for questions */
+  .question p:hover {
+    color: #0F5D85;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  .video-section {
+    float: left;
+    width: 60%;
+    height: 600px;
+    margin-top: -200px;
+    margin-left: 8%;
+  }
+  
+  .awareness-section {
+    float: right;
+    width: 40%;
+    height: 600px;
+    overflow: hidden;
+    margin-right: 8%;
+  }
+  .navbar{
+  display: flex;
+  justify-content: center;
+  }
+
+  /* .nav-links{
+    display: flex;
+  } */
+
+  /* .o{
+    margin-left: 10px;
+  } */
+  .slider {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* .q{
+    margin-right:10px ;
+  } */
+  .r{
+    justify-content: center;
+    padding-left: 20%;
+  }
+  
+  .slide {
+    height: 100%;
+    padding: 20px;
+    display: none;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+
+  @media only screen and (max-width: 320px) {
+    .slide h3 p{
+     display: none;
+   }
+   .video_container{
+         display: none;
+        }
+        .hero_video {
+          width: 140%;
+          height: 100%;
+          height: 600px;
+          /* padding-right: 1000%; */
+          align-items: center;
+
+        }
+       
+     
+   .awareness-section {
+      display: none;
+     }
+   .i{
+     display: none;
+   }
+   .quiz-section {
+       max-width: 800px;
+       margin: 20px auto;
+       background-color: #fff;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       margin-top: -230px;
+     }
+   .navbar h1{
+     font-size: 120%;
+   }
+   
+   }
